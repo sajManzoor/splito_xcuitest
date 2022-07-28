@@ -1,0 +1,77 @@
+{
+  "configurations" : [
+    {
+      "id" : "3E971E8E-9682-4DDE-9346-AE007DDD98BA",
+      "name" : "CONFIG_TIP_0",
+      "options" : {
+        "commandLineArgumentEntries" : [
+
+        ],
+        "environmentVariableEntries" : [
+          {
+            "key" : "tip_value",
+            "value" : "0"
+          }
+        ]
+      }
+    },
+    {
+      "id" : "ED3BE5C3-AD22-4AFC-9C1F-F4457D911E18",
+      "name" : "CONFIG_TIP_10",
+      "options" : {
+        "environmentVariableEntries" : [
+          {
+            "key" : "tip_value",
+            "value" : "10"
+          }
+        ]
+      }
+    },
+    {
+      "id" : "CE634C7C-8672-4A82-AAC7-C471A01C4BF4",
+      "name" : "CONFIG_TIP_15",
+      "options" : {
+        "environmentVariableEntries" : [
+          {
+            "key" : "tip_value",
+            "value" : "15"
+          }
+        ]
+      }
+    },
+    {
+      "id" : "6E12734E-14C0-4E88-8169-C6BAA2586186",
+      "name" : "CONFIG_TIP_20",
+      "options" : {
+        "environmentVariableEntries" : [
+          {
+            "key" : "tip_value",
+            "value" : "20"
+          }
+        ]
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "commandLineArgumentEntries" : [
+      {
+        "argument" : ""
+      }
+    ],
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Splito.xcodeproj",
+      "identifier" : "479DA42B275BE10600D3035C",
+      "name" : "Splito"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Splito.xcodeproj",
+        "identifier" : "0259B74C2890FCEB00B39B72",
+        "name" : "SplitoUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0259B7672891319300B39B72 /* Page.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259B7662891319300B39B72 /* Page.m */; };
+		0259B76D2891404200B39B72 /* BillEntryPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259B76C2891404200B39B72 /* BillEntryPage.m */; };
+		0259B77128915E1200B39B72 /* BaseCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259B77028915E1200B39B72 /* BaseCase.m */; };
+		0259B774289160A200B39B72 /* PagesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259B773289160A200B39B72 /* PagesManager.m */; };
+		0259B7772891653500B39B72 /* TestBillingEntryPageValidations.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259B7762891653500B39B72 /* TestBillingEntryPageValidations.m */; };
+		0259B77B28916DF800B39B72 /* DataGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259B77A28916DF800B39B72 /* DataGenerator.m */; };
+		0259B77F289170E800B39B72 /* XCUIElement+Shortcut.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259B77E289170E800B39B72 /* XCUIElement+Shortcut.m */; };
+		0259B7822891885B00B39B72 /* CommonActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259B7812891885B00B39B72 /* CommonActions.m */; };
+		0259B7852891928600B39B72 /* BillHistoryPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259B7842891928600B39B72 /* BillHistoryPage.m */; };
+		0259B7872891B2FA00B39B72 /* TestBillingHistoryPageValidations.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259B7862891B2FA00B39B72 /* TestBillingHistoryPageValidations.m */; };
+		0259B7892891B85100B39B72 /* TestBilingHistoryRecordsValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259B7882891B85100B39B72 /* TestBilingHistoryRecordsValidation.m */; };
+		0259B78D2891B93D00B39B72 /* BillRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259B78C2891B93D00B39B72 /* BillRecord.m */; };
 		479DA430275BE10600D3035C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479DA42F275BE10600D3035C /* AppDelegate.swift */; };
 		479DA432275BE10600D3035C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479DA431275BE10600D3035C /* SceneDelegate.swift */; };
 		479DA434275BE10600D3035C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479DA433275BE10600D3035C /* ViewController.swift */; };
@@ -28,13 +40,11 @@
 		A80E399928632E9200E39FA4 /* ViewBillsHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80E399828632E9200E39FA4 /* ViewBillsHistoryViewController.swift */; };
 		A80E39A32863319A00E39FA4 /* BillStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A80E39A12863319A00E39FA4 /* BillStore.xcdatamodeld */; };
 		A80E39A62863346600E39FA4 /* BillTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80E39A52863346600E39FA4 /* BillTableViewCell.swift */; };
-		A8E2994F2806EF8E004E91F1 /* SplitoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E2994E2806EF8E004E91F1 /* SplitoUITests.swift */; };
-		A8E2995B2806F059004E91F1 /* SplitHomePO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E2995A2806F059004E91F1 /* SplitHomePO.swift */; };
 		F435B56B96E92239AEF4575D /* Pods_Splito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917CBA1FB244A5B767ADEBA7 /* Pods_Splito.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A8E299522806EF8E004E91F1 /* PBXContainerItemProxy */ = {
+		0259B7532890FCEB00B39B72 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 479DA424275BE10600D3035C /* Project object */;
 			proxyType = 1;
@@ -44,6 +54,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0259B74D2890FCEB00B39B72 /* SplitoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0259B760289105B300B39B72 /* Splito.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Splito.xctestplan; sourceTree = "<group>"; };
+		0259B7652891319300B39B72 /* Page.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Page.h; sourceTree = "<group>"; };
+		0259B7662891319300B39B72 /* Page.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Page.m; sourceTree = "<group>"; };
+		0259B76B2891404200B39B72 /* BillEntryPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BillEntryPage.h; sourceTree = "<group>"; };
+		0259B76C2891404200B39B72 /* BillEntryPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BillEntryPage.m; sourceTree = "<group>"; };
+		0259B76E2891544300B39B72 /* PredicateHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PredicateHelper.h; sourceTree = "<group>"; };
+		0259B76F28915E1200B39B72 /* BaseCase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCase.h; sourceTree = "<group>"; };
+		0259B77028915E1200B39B72 /* BaseCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseCase.m; sourceTree = "<group>"; };
+		0259B772289160A200B39B72 /* PagesManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PagesManager.h; sourceTree = "<group>"; };
+		0259B773289160A200B39B72 /* PagesManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PagesManager.m; sourceTree = "<group>"; };
+		0259B7762891653500B39B72 /* TestBillingEntryPageValidations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBillingEntryPageValidations.m; sourceTree = "<group>"; };
+		0259B77828916DB100B39B72 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		0259B77928916DF800B39B72 /* DataGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataGenerator.h; sourceTree = "<group>"; };
+		0259B77A28916DF800B39B72 /* DataGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataGenerator.m; sourceTree = "<group>"; };
+		0259B77D289170E800B39B72 /* XCUIElement+Shortcut.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+Shortcut.h"; sourceTree = "<group>"; };
+		0259B77E289170E800B39B72 /* XCUIElement+Shortcut.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+Shortcut.m"; sourceTree = "<group>"; };
+		0259B7802891885B00B39B72 /* CommonActions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonActions.h; sourceTree = "<group>"; };
+		0259B7812891885B00B39B72 /* CommonActions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonActions.m; sourceTree = "<group>"; };
+		0259B7832891928600B39B72 /* BillHistoryPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BillHistoryPage.h; sourceTree = "<group>"; };
+		0259B7842891928600B39B72 /* BillHistoryPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BillHistoryPage.m; sourceTree = "<group>"; };
+		0259B7862891B2FA00B39B72 /* TestBillingHistoryPageValidations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBillingHistoryPageValidations.m; sourceTree = "<group>"; };
+		0259B7882891B85100B39B72 /* TestBilingHistoryRecordsValidation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBilingHistoryRecordsValidation.m; sourceTree = "<group>"; };
+		0259B78B2891B93D00B39B72 /* BillRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BillRecord.h; sourceTree = "<group>"; };
+		0259B78C2891B93D00B39B72 /* BillRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BillRecord.m; sourceTree = "<group>"; };
 		2C3F1C4D46C4C2243EB88395 /* Pods-Splito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splito.release.xcconfig"; path = "Target Support Files/Pods-Splito/Pods-Splito.release.xcconfig"; sourceTree = "<group>"; };
 		479DA42C275BE10600D3035C /* Splito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Splito.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		479DA42F275BE10600D3035C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,13 +104,17 @@
 		A80E399828632E9200E39FA4 /* ViewBillsHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewBillsHistoryViewController.swift; sourceTree = "<group>"; };
 		A80E39A22863319A00E39FA4 /* BillStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BillStore.xcdatamodel; sourceTree = "<group>"; };
 		A80E39A52863346600E39FA4 /* BillTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillTableViewCell.swift; sourceTree = "<group>"; };
-		A8E2994C2806EF8E004E91F1 /* SplitoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8E2994E2806EF8E004E91F1 /* SplitoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitoUITests.swift; sourceTree = "<group>"; };
-		A8E2995A2806F059004E91F1 /* SplitHomePO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitHomePO.swift; sourceTree = "<group>"; };
 		D516169076E6F8CF2C6FD8F9 /* Pods-Splito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splito.debug.xcconfig"; path = "Target Support Files/Pods-Splito/Pods-Splito.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0259B74A2890FCEB00B39B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		479DA429275BE10600D3035C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -84,16 +123,120 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8E299492806EF8E004E91F1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0259B74E2890FCEB00B39B72 /* SplitoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0259B7642891300200B39B72 /* Util */,
+				0259B76328912FF700B39B72 /* TestCases */,
+				0259B76228912FED00B39B72 /* DataProvider */,
+				0259B76128912FE700B39B72 /* Pages */,
+				0259B75F2891058400B39B72 /* TestPlans */,
+			);
+			path = SplitoUITests;
+			sourceTree = "<group>";
+		};
+		0259B75F2891058400B39B72 /* TestPlans */ = {
+			isa = PBXGroup;
+			children = (
+				0259B760289105B300B39B72 /* Splito.xctestplan */,
+			);
+			path = TestPlans;
+			sourceTree = "<group>";
+		};
+		0259B76128912FE700B39B72 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				0259B76A289139DC00B39B72 /* BillHistoryScreen */,
+				0259B769289138D100B39B72 /* BillEntryScreen */,
+				0259B7652891319300B39B72 /* Page.h */,
+				0259B7662891319300B39B72 /* Page.m */,
+				0259B772289160A200B39B72 /* PagesManager.h */,
+				0259B773289160A200B39B72 /* PagesManager.m */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		0259B76228912FED00B39B72 /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				0259B78A2891B92600B39B72 /* Models */,
+				0259B77928916DF800B39B72 /* DataGenerator.h */,
+				0259B77A28916DF800B39B72 /* DataGenerator.m */,
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		0259B76328912FF700B39B72 /* TestCases */ = {
+			isa = PBXGroup;
+			children = (
+				0259B7752891650E00B39B72 /* CleanStateVerifications */,
+				0259B76F28915E1200B39B72 /* BaseCase.h */,
+				0259B77028915E1200B39B72 /* BaseCase.m */,
+			);
+			path = TestCases;
+			sourceTree = "<group>";
+		};
+		0259B7642891300200B39B72 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0259B77C289170C900B39B72 /* Framework */,
+				0259B76E2891544300B39B72 /* PredicateHelper.h */,
+				0259B77828916DB100B39B72 /* Constants.h */,
+				0259B7802891885B00B39B72 /* CommonActions.h */,
+				0259B7812891885B00B39B72 /* CommonActions.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		0259B769289138D100B39B72 /* BillEntryScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0259B76B2891404200B39B72 /* BillEntryPage.h */,
+				0259B76C2891404200B39B72 /* BillEntryPage.m */,
+			);
+			path = BillEntryScreen;
+			sourceTree = "<group>";
+		};
+		0259B76A289139DC00B39B72 /* BillHistoryScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0259B7832891928600B39B72 /* BillHistoryPage.h */,
+				0259B7842891928600B39B72 /* BillHistoryPage.m */,
+			);
+			path = BillHistoryScreen;
+			sourceTree = "<group>";
+		};
+		0259B7752891650E00B39B72 /* CleanStateVerifications */ = {
+			isa = PBXGroup;
+			children = (
+				0259B7762891653500B39B72 /* TestBillingEntryPageValidations.m */,
+				0259B7862891B2FA00B39B72 /* TestBillingHistoryPageValidations.m */,
+				0259B7882891B85100B39B72 /* TestBilingHistoryRecordsValidation.m */,
+			);
+			path = CleanStateVerifications;
+			sourceTree = "<group>";
+		};
+		0259B77C289170C900B39B72 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				0259B77D289170E800B39B72 /* XCUIElement+Shortcut.h */,
+				0259B77E289170E800B39B72 /* XCUIElement+Shortcut.m */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		0259B78A2891B92600B39B72 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0259B78B2891B93D00B39B72 /* BillRecord.h */,
+				0259B78C2891B93D00B39B72 /* BillRecord.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		2E44FE7D799537F6BB858F3D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,7 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				479DA42E275BE10600D3035C /* Splitter */,
-				A8E2994D2806EF8E004E91F1 /* SplitoUITests */,
+				0259B74E2890FCEB00B39B72 /* SplitoUITests */,
 				479DA42D275BE10600D3035C /* Products */,
 				2E44FE7D799537F6BB858F3D /* Pods */,
 				4B30EE5F718CE512FEFA7224 /* Frameworks */,
@@ -118,7 +261,7 @@
 			isa = PBXGroup;
 			children = (
 				479DA42C275BE10600D3035C /* Splito.app */,
-				A8E2994C2806EF8E004E91F1 /* SplitoUITests.xctest */,
+				0259B74D2890FCEB00B39B72 /* SplitoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,7 +270,6 @@
 			isa = PBXGroup;
 			children = (
 				A80E39A42863344700E39FA4 /* Cells */,
-				A80E39A02863310600E39FA4 /* Models */,
 				A80E399C2863307000E39FA4 /* Resources */,
 				A80E399828632E9200E39FA4 /* ViewBillsHistoryViewController.swift */,
 				479DA42F275BE10600D3035C /* AppDelegate.swift */,
@@ -177,13 +319,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		A80E39A02863310600E39FA4 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		A80E39A42863344700E39FA4 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,26 +327,27 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		A8E2994D2806EF8E004E91F1 /* SplitoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A8E299572806F021004E91F1 /* PageObjects */,
-				A8E2994E2806EF8E004E91F1 /* SplitoUITests.swift */,
-			);
-			path = SplitoUITests;
-			sourceTree = "<group>";
-		};
-		A8E299572806F021004E91F1 /* PageObjects */ = {
-			isa = PBXGroup;
-			children = (
-				A8E2995A2806F059004E91F1 /* SplitHomePO.swift */,
-			);
-			path = PageObjects;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0259B74C2890FCEB00B39B72 /* SplitoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0259B7552890FCEB00B39B72 /* Build configuration list for PBXNativeTarget "SplitoUITests" */;
+			buildPhases = (
+				0259B7492890FCEB00B39B72 /* Sources */,
+				0259B74A2890FCEB00B39B72 /* Frameworks */,
+				0259B74B2890FCEB00B39B72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0259B7542890FCEB00B39B72 /* PBXTargetDependency */,
+			);
+			name = SplitoUITests;
+			productName = SplitoUITests;
+			productReference = 0259B74D2890FCEB00B39B72 /* SplitoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		479DA42B275BE10600D3035C /* Splito */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 479DA440275BE10700D3035C /* Build configuration list for PBXNativeTarget "Splito" */;
@@ -231,24 +367,6 @@
 			productReference = 479DA42C275BE10600D3035C /* Splito.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A8E2994B2806EF8E004E91F1 /* SplitoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A8E299562806EF8E004E91F1 /* Build configuration list for PBXNativeTarget "SplitoUITests" */;
-			buildPhases = (
-				A8E299482806EF8E004E91F1 /* Sources */,
-				A8E299492806EF8E004E91F1 /* Frameworks */,
-				A8E2994A2806EF8E004E91F1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A8E299532806EF8E004E91F1 /* PBXTargetDependency */,
-			);
-			name = SplitoUITests;
-			productName = SplitoUITests;
-			productReference = A8E2994C2806EF8E004E91F1 /* SplitoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -259,12 +377,12 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					479DA42B275BE10600D3035C = {
-						CreatedOnToolsVersion = 13.1;
-					};
-					A8E2994B2806EF8E004E91F1 = {
+					0259B74C2890FCEB00B39B72 = {
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 479DA42B275BE10600D3035C;
+					};
+					479DA42B275BE10600D3035C = {
+						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
@@ -282,12 +400,19 @@
 			projectRoot = "";
 			targets = (
 				479DA42B275BE10600D3035C /* Splito */,
-				A8E2994B2806EF8E004E91F1 /* SplitoUITests */,
+				0259B74C2890FCEB00B39B72 /* SplitoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0259B74B2890FCEB00B39B72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		479DA42A275BE10600D3035C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -307,13 +432,6 @@
 				479DA473275BE6EC00D3035C /* Roboto-Regular.ttf in Resources */,
 				479DA46A275BE6EC00D3035C /* Roboto-Black.ttf in Resources */,
 				479DA46F275BE6EC00D3035C /* Roboto-Medium.ttf in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A8E2994A2806EF8E004E91F1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +480,25 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0259B7492890FCEB00B39B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0259B7872891B2FA00B39B72 /* TestBillingHistoryPageValidations.m in Sources */,
+				0259B78D2891B93D00B39B72 /* BillRecord.m in Sources */,
+				0259B7852891928600B39B72 /* BillHistoryPage.m in Sources */,
+				0259B774289160A200B39B72 /* PagesManager.m in Sources */,
+				0259B7892891B85100B39B72 /* TestBilingHistoryRecordsValidation.m in Sources */,
+				0259B76D2891404200B39B72 /* BillEntryPage.m in Sources */,
+				0259B7672891319300B39B72 /* Page.m in Sources */,
+				0259B77B28916DF800B39B72 /* DataGenerator.m in Sources */,
+				0259B7822891885B00B39B72 /* CommonActions.m in Sources */,
+				0259B7772891653500B39B72 /* TestBillingEntryPageValidations.m in Sources */,
+				0259B77128915E1200B39B72 /* BaseCase.m in Sources */,
+				0259B77F289170E800B39B72 /* XCUIElement+Shortcut.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		479DA428275BE10600D3035C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -375,22 +512,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8E299482806EF8E004E91F1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A8E2995B2806F059004E91F1 /* SplitHomePO.swift in Sources */,
-				A8E2994F2806EF8E004E91F1 /* SplitoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A8E299532806EF8E004E91F1 /* PBXTargetDependency */ = {
+		0259B7542890FCEB00B39B72 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 479DA42B275BE10600D3035C /* Splito */;
-			targetProxy = A8E299522806EF8E004E91F1 /* PBXContainerItemProxy */;
+			targetProxy = 0259B7532890FCEB00B39B72 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -414,6 +542,47 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0259B7562890FCEB00B39B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"LANG=1",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LANG = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.SplitoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Splito;
+			};
+			name = Debug;
+		};
+		0259B7572890FCEB00B39B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LANG = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.SplitoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Splito;
+			};
+			name = Release;
+		};
 		479DA43E275BE10700D3035C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -539,6 +708,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZNR2D834QB;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Splitter/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Splito;
@@ -571,6 +741,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZNR2D834QB;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Splitter/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Splito;
@@ -594,43 +765,18 @@
 			};
 			name = Release;
 		};
-		A8E299542806EF8E004E91F1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.assigment.SplitoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Splito;
-			};
-			name = Debug;
-		};
-		A8E299552806EF8E004E91F1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.assigment.SplitoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Splito;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0259B7552890FCEB00B39B72 /* Build configuration list for PBXNativeTarget "SplitoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0259B7562890FCEB00B39B72 /* Debug */,
+				0259B7572890FCEB00B39B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		479DA427275BE10600D3035C /* Build configuration list for PBXProject "Splito" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -645,15 +791,6 @@
 			buildConfigurations = (
 				479DA441275BE10700D3035C /* Debug */,
 				479DA442275BE10700D3035C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A8E299562806EF8E004E91F1 /* Build configuration list for PBXNativeTarget "SplitoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A8E299542806EF8E004E91F1 /* Debug */,
-				A8E299552806EF8E004E91F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
