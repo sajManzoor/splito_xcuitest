@@ -40,10 +40,6 @@
     for (BillRecord *record in self.billRecords) {
         XCTAssertTrue([CommonActions enterRecordDetailsAndCalculate:record]);
         bool verifyBillPerPerson = [PagesManager.sharedInstance.billEntryPage.labelTotalBillAmountPerPerson waitForElementPredicate:LABEL_EQUALS(record.totalBillAmt) withTimeOut:MEDIUM_WAIT_TIME];
-        if (!verifyBillPerPerson) {
-            NSLog(@"observed : %@",[PagesManager.sharedInstance.billEntryPage.labelTotalBillAmountPerPerson label]);
-            NSLog(@"exptected : %@", record.totalBillAmt);
-        }
         XCTAssertTrue(verifyBillPerPerson);
     }
     
